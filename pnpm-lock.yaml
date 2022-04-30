@@ -1,16 +1,24 @@
 lockfileVersion: 5.3
 
 specifiers:
+  comlink: ^4.3.1
   typescript: ^4.5.4
   vite: ^2.9.5
   vite-plugin-comlink: ^3.0.0
 
+dependencies:
+  comlink: 4.3.1
+
 devDependencies:
   typescript: 4.6.4
   vite: 2.9.6
-  vite-plugin-comlink: 3.0.0_vite@2.9.6
+  vite-plugin-comlink: 3.0.0_comlink@4.3.1+vite@2.9.6
 
 packages:
+
+  /comlink/4.3.1:
+    resolution: {integrity: sha512-+YbhUdNrpBZggBAHWcgQMLPLH1KDF3wJpeqrCKieWQ8RL7atmgsgTQko1XEBK6PsecfopWNntopJ+ByYG1lRaA==}
+    dev: false
 
   /esbuild-android-64/0.14.38:
     resolution: {integrity: sha512-aRFxR3scRKkbmNuGAK+Gee3+yFxkTJO/cx83Dkyzo4CnQl/2zVSurtG6+G86EQIZ+w+VYngVyK7P3HyTBKu3nw==}
@@ -301,12 +309,13 @@ packages:
     hasBin: true
     dev: true
 
-  /vite-plugin-comlink/3.0.0_vite@2.9.6:
+  /vite-plugin-comlink/3.0.0_comlink@4.3.1+vite@2.9.6:
     resolution: {integrity: sha512-OE5DoikJW2zqH4VF0qVZeFdlgMJF/JFk+Spf/9t/eP3CQZ86roB25u/agB36ctELe4sMoOwVJa2iusbWEKECNg==}
     peerDependencies:
       comlink: ^4.3.1
       vite: '>=2.9.6'
     dependencies:
+      comlink: 4.3.1
       vite: 2.9.6
     dev: true
 
